@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_330222effc8999657d23afe2266e6131 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_330222effc8999657d23afe2266e6131" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_330222effc8999657d23afe2266e6131 = L.map(
+                "map_330222effc8999657d23afe2266e6131",
+                {
+                    center: [45.378069, -84.927656],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e9c6d3efb5a637c0442f033d9fdcfd66 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_e9c6d3efb5a637c0442f033d9fdcfd66.addTo(map_330222effc8999657d23afe2266e6131);
+        
+    
+            var marker_b3329601822b1e554951f64e0adbe088 = L.marker(
+                [45.3551302, -84.9689241],
+                {}
+            ).addTo(map_330222effc8999657d23afe2266e6131);
+        
+    
+            var icon_928b29bebbcfd86ba9a181661c121290 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cannabis", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b3329601822b1e554951f64e0adbe088.setIcon(icon_928b29bebbcfd86ba9a181661c121290);
+        
+    
+        var popup_35e06b00bb65a0c3fde17eea1d89dd0b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_38ece5db8e1ec8b27e5f3a89f3fa1ff2 = $(`<div id="html_38ece5db8e1ec8b27e5f3a89f3fa1ff2" style="width: 100.0%; height: 100.0%;">Lume Cannabis Dispensary Bear Creek, MI<br>1520 US-131, Petoskey, MI 49770</div>`)[0];
+                popup_35e06b00bb65a0c3fde17eea1d89dd0b.setContent(html_38ece5db8e1ec8b27e5f3a89f3fa1ff2);
+            
+        
+
+        marker_b3329601822b1e554951f64e0adbe088.bindPopup(popup_35e06b00bb65a0c3fde17eea1d89dd0b)
+        ;
+
+        
+    
+    
+            var marker_3fdcad9ec1a7eb4f4c385ee0b38c53db = L.marker(
+                [45.3698756, -84.9782657],
+                {}
+            ).addTo(map_330222effc8999657d23afe2266e6131);
+        
+    
+            var icon_a2ad7b2133bf29b7b4fed8d72983b461 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cannabis", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3fdcad9ec1a7eb4f4c385ee0b38c53db.setIcon(icon_a2ad7b2133bf29b7b4fed8d72983b461);
+        
+    
+        var popup_55bf68074e832c88af827c3e2ee67d73 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_42fcfc7fb302d15e72367d0fccfc4dc7 = $(`<div id="html_42fcfc7fb302d15e72367d0fccfc4dc7" style="width: 100.0%; height: 100.0%;">Buds Of Petoskey<br>1111 Charlevoix Ave, Petoskey, MI 49770</div>`)[0];
+                popup_55bf68074e832c88af827c3e2ee67d73.setContent(html_42fcfc7fb302d15e72367d0fccfc4dc7);
+            
+        
+
+        marker_3fdcad9ec1a7eb4f4c385ee0b38c53db.bindPopup(popup_55bf68074e832c88af827c3e2ee67d73)
+        ;
+
+        
+    
+    
+            var marker_525daabede69053a234a80e689bb263c = L.marker(
+                [45.3898818, -84.9079531],
+                {}
+            ).addTo(map_330222effc8999657d23afe2266e6131);
+        
+    
+            var icon_3c38cab58b046e514e2ee570ac49b6ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cannabis", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_525daabede69053a234a80e689bb263c.setIcon(icon_3c38cab58b046e514e2ee570ac49b6ca);
+        
+    
+        var popup_570863180f4d393d24875ab0da8b70fb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b8f47e62f55ccf36d52b0b363b2636ce = $(`<div id="html_b8f47e62f55ccf36d52b0b363b2636ce" style="width: 100.0%; height: 100.0%;">Lume Cannabis Dispensary Petoskey, MI<br>1345 US-31, Petoskey, MI 49770</div>`)[0];
+                popup_570863180f4d393d24875ab0da8b70fb.setContent(html_b8f47e62f55ccf36d52b0b363b2636ce);
+            
+        
+
+        marker_525daabede69053a234a80e689bb263c.bindPopup(popup_570863180f4d393d24875ab0da8b70fb)
+        ;
+
+        
+    
+    
+            tile_layer_e9c6d3efb5a637c0442f033d9fdcfd66.addTo(map_330222effc8999657d23afe2266e6131);
+        
+</script>
+</html>
